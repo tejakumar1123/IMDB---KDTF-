@@ -1,0 +1,29 @@
+username_locator : 'email'
+password_locator : 'password'
+
+submitButton_locator : 'signInSubmit'
+Signin : '//*[@id="imdbHeader"]/div[2]/div[5]/a'
+Signinwith : '//*[@id="signin-options"]/div/div[1]/a[1]'
+
+Menu : '//*[@id="imdbHeader-navDrawerOpen"]'
+Most_popular_movies : '//*[@id="imdbHeader"]/div[2]/aside/div/div[2]/div/div[1]/span/div/div/ul/a[3]'
+Popular_movies_list : '//*[@id="main"]/div/span/div/div/div[3]/table/tbody/tr/td[2]/a' 
+
+Searchmenu : 'suggestion-search'
+Movie_moreresults : '//*[@id="__next"]/main/div[2]/div[3]/section/div/div[2]/div[2]/section[1]/div[2]/div[2]/a[1]'
+Movieresults_list : '//*[@id="__next"]/main/div[2]/div[3]/section/div/div[1]/section[2]/div[2]/ul/li/div[2]/div/a' 
+Searchmenu_button : 'suggestion-search-button'
+
+Profilemenu_button : '//*[@id="imdbHeader"]/div[2]/div[5]/div/label[2]'
+your_lists : '//*[@id="navUserMenu-contents"]/ul/a[4]'
+Create_list : '//*[@id="sidebar"]/div/a/button'
+name_list : 'list-create-name'
+desc_list : 'list-create-description'
+type_list : 'list-create-type'
+list_button : '//*[@id="list-create-form"]/button'
+add_list : 'add-to-list-search'
+result1 : '//*[@id="add-to-list-search-results"]/a[1]'
+list_done : '//*[@id="main"]/div[1]/button'
+
+signout : '//*[@id="navUserMenu-contents"]/ul/a[6]'
+signin_text : '//*[@id="imdbHeader"]/div[2]/div[5]/a/span'
